@@ -1,7 +1,27 @@
 <?php
 
-	$nama_depan = "Andik";
-	$nama_belakang = "Surya";
+$x = 10;
+$x += 2;
 
-	echo $nama_depan . "" . $nama_belakang;
+echo $x "</br>";
+
+$y = 40;
+$y -= 2;
+
+echo $y "</br>";
+
+$x = 14;
+$x /= 2;
+
+echo $x "</br>";
+
+$y = 10;
+$y %= 2;
+
+echo $y "</br>";
+
+$x = 20;
+$x .= 2;
+
+echo $x "</br>";
 ?>
