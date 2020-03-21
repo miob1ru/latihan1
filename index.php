@@ -1,11 +1,12 @@
-<?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
+<html>
+<head>
+	<title>
+		Belajar PHP
+	</title>
+</head>
+<body>
+	<h1>
+		Selamat Datang <?php echo "Masukan Nama Anda";?>
+	</h1>
+</body>
+</html>
