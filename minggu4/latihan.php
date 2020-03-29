@@ -2,11 +2,8 @@
 // pengulangan
 // for
 
-for($i = 0; $i < 5; i++){
-	echo "Hello Word! <br>";
+for($i = 0; $i < 6; i++){
+	echo "<h2>Hai, Saya Urutan ke-$i</h2>";
 }
 
-/* $i = 0; 	bagian inisialisasi/ menentukan variabel
-$1 < 5; 	bagian kondisi/ untuk memberhentikan kondisi perulangan ketika berjumlah <5
-i++ 		bagian increment (menambah) kondisi */
 ?>
