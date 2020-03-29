@@ -1,12 +1,10 @@
 <?php
-// pengulangan
-// while
-
-$ulangi = 1; 
-while ($ulangi < 6) {
-
-	echo "<p>Hai, Ini baris ke-</p>";
-	$ulangi++; 
-
-}
-?>
+// perulangan
+// do while
+echo "<H2>Menggunakan Perulangan Do While</H2>";
+$i = 10;
+do {
+	echo "Hello Word! <br>";
+$i++;
+	} while ($i < 5);
+#karena 5 lebih besar dari 10 
