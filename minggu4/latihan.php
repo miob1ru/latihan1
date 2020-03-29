@@ -2,10 +2,11 @@
 // pengulangan
 // while
 
-$i = 0; #bagian inisialisasi
-while ($i < 5) { #didalam bracket() kondisi terminasi
-	echo "hai, Dunia! <br>";
-	$i++; #increment
+$ulangi = 1; 
+while ($ulangi < 6) {
+
+	echo "<p>Hai, Ini baris ke-</p>";
+	$ulangi++; 
 
 }
 ?>
