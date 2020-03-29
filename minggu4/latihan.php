@@ -1,9 +1,11 @@
 <?php
 // pengulangan
-// for
+// while
 
-for($i = 0; $i < 6; i++){
-	echo "<h2>Hai, Saya Urutan ke-$i</h2>";
+$i = 0; #bagian inisialisasi
+while ($i < 5) { #didalam bracket() kondisi terminasi
+	echo "hai, Dunia! <br>";
+	$i++; #increment
+
 }
-
 ?>
